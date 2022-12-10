@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import './ProjectCard.css';
 import { FaCode } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
+
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const ProjectCard = ({ project }) => {
@@ -31,7 +32,7 @@ const ProjectCard = ({ project }) => {
               </PhotoView>
             </div>
             <div className="col-12">
-              <div className="card-body">
+              <div className="card-body px-4">
                 <h2 className="card-title">{name}</h2>
                 <div>
                   {descriptions.map((bulletPoint, index) => (
