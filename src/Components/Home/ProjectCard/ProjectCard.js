@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import './ProjectCard.css';
 import { FaCode } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 
 const ProjectCard = ({ project }) => {
   const {
@@ -51,16 +52,28 @@ const ProjectCard = ({ project }) => {
                 <a href={liveSite} target="_blank" rel="noreferrer">
                   <Button variant="outline-success" className="fw-semibold">
                     Live Website
+                    <FiExternalLink
+                      size={22}
+                      style={{ marginBottom: '2px', marginLeft: '5px' }}
+                    />
                   </Button>
                 </a>
                 <a href={gitHubClient} target="_blank" rel="noreferrer">
                   <Button variant="outline-success" className="fw-semibold">
-                    Github Client <FaCode size={22} />
+                    Github Client
+                    <FaCode
+                      size={22}
+                      style={{ marginBottom: '2px', marginLeft: '5px' }}
+                    />
                   </Button>
                 </a>
                 <a href={gitHubServer} target="_blank" rel="noreferrer">
                   <Button variant="outline-success" className="fw-semibold">
-                    Github Server <FaCode size={22} />
+                    Github Server
+                    <FaCode
+                      size={22}
+                      style={{ marginBottom: '2px', marginLeft: '5px' }}
+                    />
                   </Button>
                 </a>
               </div>
