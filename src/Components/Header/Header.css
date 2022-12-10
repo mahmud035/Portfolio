@@ -1,0 +1,45 @@
+.navbar-container {
+  height: 75px;
+}
+
+.navbar-container,
+.navbar-off-canvas {
+  background-color: #1d3e53;
+  color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* .nav-items a.active {
+  color: aqua;
+} */
+
+.important-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.important-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.resume-btn {
+  outline: 2px solid #fff;
+  padding: 4px 12px;
+  border-radius: 3px;
+}
