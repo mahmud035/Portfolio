@@ -1,11 +1,20 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 import './Contact.css';
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    toast.success('Thank you! I received your email.');
+
+    e.target.reset();
+  };
+
   return (
-    <div>
-      <div id="contact" className="contact-page pt-5 ">
+    <section id="contact">
+      <div className="contact-page pt-5 ">
         <div className="vh-100 container py-5">
           <div>
             <div className="contact-page-form-container">
@@ -13,12 +22,15 @@ const Contact = () => {
                 <h4 className="py-4 text-center fs-2">
                   Contact <span style={{ color: 'aqua' }}> Me</span>
                 </h4>
-                <p className="text-center w-75 mx-auto">
+                <p className="text-center fw-semibold w-75 mx-auto">
                   Feel free to Contact me by submitting the form below and I
-                  will get back to you as soon as possible
+                  will get back to you as soon as possible.
                 </p>
               </div>
-              <Form className=" d-flex flex-column justify-content-center p-4 ">
+              <Form
+                onSubmit={handleSubmit}
+                className=" d-flex flex-column justify-content-center p-4 "
+              >
                 <Form.Group className="mb-3 " controlId="formBasicPassword">
                   <Form.Label className="fw-bold">Name</Form.Label>
                   <Form.Control
@@ -64,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

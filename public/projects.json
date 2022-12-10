@@ -1,0 +1,25 @@
+[
+  {
+    "name": " Nurturing-Minds",
+    "image": "https://i.ibb.co/k2FhwY7/nurturing-minds.png",
+    "descriptions": [
+      "Nurturing Minds is a MERN stack website whose main objective is to provide solutions to those suffering from various psychological problems.",
+      "It provides information about different types of mental disorders and allows users to consult an experienced psychiatrist about their condition.",
+      "Users can give feedback based on their experience change it or delete it if they want."
+    ],
+    "liveSite": "https://nurturing-minds-client-side.web.app/",
+    "gitHubClient": "https://github.com/mahmud035/Nurturing-Minds",
+    "gitHubServer": "https://github.com/mahmud035/Nurturing-Minds-Server",
+    "technologyUsed": [
+      "React.js",
+      "React-Router",
+      "React-Bootstrap",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Firebase Authentication",
+      "CSS3"
+    ]
+  }
+]

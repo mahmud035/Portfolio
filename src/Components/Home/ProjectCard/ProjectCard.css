@@ -1,0 +1,23 @@
+.project-card {
+  height: 450px;
+}
+
+.project-image {
+  max-height: 450px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.all-technology {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 1rem 0;
+}
+
+.technology {
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
