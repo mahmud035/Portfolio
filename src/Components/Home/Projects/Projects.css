@@ -1,5 +1,12 @@
 .projects-card-container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
   gap: 1.7rem;
   padding-bottom: 5rem;
+}
+
+@media (max-width: 600px) {
+  .projects-card-container {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }

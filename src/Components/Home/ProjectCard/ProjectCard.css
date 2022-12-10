@@ -1,5 +1,5 @@
 .project-card {
-  height: 450px;
+  height: fit-content;
 }
 
 .project-image {

@@ -17,16 +17,16 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div>
-      <div className="project-card card h-100  border-0 shadow-sm">
+      <div className="project-card card h-100  border-0 shadow">
         <div className="row g-2">
-          <div className="col-md-5">
+          <div className="col-12 ">
             <img
               src={image}
               className="project-image rounded"
               alt="Project Demo"
             />
           </div>
-          <div className="col-md-7">
+          <div className="col-12">
             <div className="card-body">
               <h2 className="card-title">{name}</h2>
               <div>
