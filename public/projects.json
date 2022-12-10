@@ -70,5 +70,26 @@
       "Firebase Authentication",
       "CSS3"
     ]
+  },
+  {
+    "name": " WebTesty",
+    "image": "https://i.ibb.co/881s29m/webtesty.png",
+    "descriptions": [
+      "WebTesty is a quiz website where users can participate in various quizzes and test their knowledge on particular topics.",
+      "For each question, users can see the correct answer and know whether their answer is correct.",
+      "Used ReCharts for showing total quiz data."
+    ],
+    "liveSite": "https://web-testy-quiz-app.netlify.app/",
+    "gitHubClient": "https://github.com/mahmud035/WebTesty",
+    "technologyUsed": [
+      "React.js",
+      "React-Router",
+      "React-Bootstrap",
+      "React-Toastify",
+      "ReCharts",
+      "Rest API",
+      "CSS3",
+      "Mobile-first workflow"
+    ]
   }
 ]
