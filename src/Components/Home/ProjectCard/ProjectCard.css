@@ -3,7 +3,7 @@
 }
 
 .project-image {
-  max-height: 450px;
+  height: 450px;
   width: 100%;
   object-fit: cover;
   object-position: top center;

@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div>
-      <div className="project-card card h-100 mb-3 border-0 shadow-sm">
+      <div className="project-card card h-100  border-0 shadow-sm">
         <div className="row g-2">
           <div className="col-md-5">
             <img

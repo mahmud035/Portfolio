@@ -21,5 +21,54 @@
       "Firebase Authentication",
       "CSS3"
     ]
+  },
+  {
+    "name": "HomeTech",
+    "image": "https://i.ibb.co/BZc5zVK/hometech.png",
+    "descriptions": [
+      "HomeTech is a MERN stack platform where you can buy and sell used laptops of various top brands.",
+      "An integrated dashboard functionality has been implemented for three categories (Users, Sellers, and Admin). Users can complete payment for their preferred products through Stripe.",
+      "Sellers can add, delete, or advertise their products, and Admin can delete any buyer or seller. Can verify any seller and also delete reported items."
+    ],
+    "liveSite": "https://hometech-be5e9.web.app/",
+    "gitHubClient": "https://github.com/mahmud035/HomeTech",
+    "gitHubServer": "https://github.com/mahmud035/HomeTech-Server",
+    "technologyUsed": [
+      "React.js",
+      "React-Router",
+      "React-Bootstrap",
+      "TanStack Query",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Firebase Authentication",
+      "Stripe",
+      "CSS3"
+    ]
+  },
+  {
+    "name": "BrainStormy",
+    "image": "https://i.ibb.co/N9jFcjv/brainstormy.png",
+    "descriptions": [
+      "BrainStormy is an online learning website where a student can learn about various computer science fundamentals through courses.",
+      "A student can view details about each course, view courses by category, and add those to their cart if they want to purchase.",
+      "Implement firebase authentication for registration and login."
+    ],
+    "liveSite": "https://brain-stormy-client.web.app/",
+    "gitHubClient": "https://github.com/mahmud035/BrainStormy",
+    "gitHubServer": "https://github.com/mahmud035/BrainStormy-Server",
+    "technologyUsed": [
+      "React.js",
+      "React-Router",
+      "React-Bootstrap",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Firebase Authentication",
+      "CSS3"
+    ]
   }
 ]

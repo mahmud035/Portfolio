@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="container">
         <h1 className="text-center py-5">Projects</h1>
 
-        <div>
+        <div className="projects-card-container ">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project}></ProjectCard>
           ))}
