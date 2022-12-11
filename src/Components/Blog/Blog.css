@@ -1,0 +1,23 @@
+.blog-page {
+  background-color: #1a374d;
+  color: hsl(0, 0%, 100%);
+  padding: 5rem 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.blog-page img {
+  max-width: 750px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+@media (max-width: 850px) {
+  .blog-page img {
+    max-width: 90%;
+    height: 350px;
+  }
+}
