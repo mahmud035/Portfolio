@@ -1,18 +1,33 @@
-import React, { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import React from 'react';
+import Loading from '../../Shared/Loading/Loading';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  console.log(projects);
+  const url = 'http://localhost:5000/projects';
 
-  useEffect(() => {
-    fetch('projects.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data);
-      });
-  }, []);
+  const {
+    isLoading,
+    isError,
+    data: projects,
+    error,
+  } = useQuery({
+    queryKey: ['projects'],
+    queryFn: async () => {
+      const res = await fetch(url);
+      const data = await res.json();
+      return data;
+    },
+  });
+
+  if (isLoading) {
+    return <Loading></Loading>;
+  }
+
+  if (isError) {
+    return <h3>{error.message}</h3>;
+  }
 
   return (
     <section id="project">

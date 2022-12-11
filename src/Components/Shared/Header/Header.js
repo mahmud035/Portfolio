@@ -5,8 +5,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link, NavLink } from 'react-router-dom';
-import profile from '../../assets/images/profile.png';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import profile from '../../../assets/images/profile.png';
 
 const Header = () => {
   return (

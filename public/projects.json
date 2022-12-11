@@ -2,6 +2,12 @@
   {
     "name": " Nurturing-Minds",
     "image": "https://i.ibb.co/k2FhwY7/nurturing-minds.png",
+    "images": [
+      "https://i.ibb.co/nPfQyG2/nurturing-screenshot-1.png",
+      "https://i.ibb.co/fGbwHr2/nurturing-screenshot-2.png",
+      "https://i.ibb.co/YtFjyY1/nurturing-screenshot-3.png",
+      "https://i.ibb.co/3C0Bst3/nurturing-screenshot-4.png"
+    ],
     "descriptions": [
       "Nurturing Minds is a MERN stack website whose main objective is to provide solutions to those suffering from various psychological problems.",
       "It provides information about different types of mental disorders and allows users to consult an experienced psychiatrist about their condition.",
