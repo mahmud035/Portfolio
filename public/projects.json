@@ -13,6 +13,13 @@
       "It provides information about different types of mental disorders and allows users to consult an experienced psychiatrist about their condition.",
       "Users can give feedback based on their experience change it or delete it if they want."
     ],
+    "fullDescriptions": [
+      "Nurturing Minds is a MERN stack website whose main objective is to provide solutions to those suffering from various psychological problems.",
+      "It provides information about different types of mental disorders and allows users to consult an experienced psychiatrist about their condition.",
+      "Users can give feedback based on their experience change it or delete it if they want.",
+      "Users can sign up with their email, password, Google account, or GitHub account.",
+      "Users can read various types of blogs."
+    ],
     "liveSite": "https://nurturing-minds-client-side.web.app/",
     "gitHubClient": "https://github.com/mahmud035/Nurturing-Minds",
     "gitHubServer": "https://github.com/mahmud035/Nurturing-Minds-Server",
@@ -31,10 +38,23 @@
   {
     "name": "HomeTech",
     "image": "https://i.ibb.co/BZc5zVK/hometech.png",
+    "images": [
+      "https://i.ibb.co/41DY0BS/hometech-1.png",
+      "https://i.ibb.co/PCfydhq/hometech-2.png",
+      "https://i.ibb.co/ssNh2t5/hometech-3.png",
+      "https://i.ibb.co/SRMn7zW/hometech-4.png"
+    ],
     "descriptions": [
       "HomeTech is a MERN stack platform where you can buy and sell used laptops of various top brands.",
       "An integrated dashboard functionality has been implemented for three categories (Users, Sellers, and Admin). Users can complete payment for their preferred products through Stripe.",
       "Sellers can add, delete, or advertise their products, and Admin can delete any buyer or seller. Can verify any seller and also delete reported items."
+    ],
+    "fullDescriptions": [
+      "HomeTech is a MERN stack platform where you can buy and sell used laptops of various top brands.",
+      "An integrated dashboard functionality has been implemented for three categories (Users, Sellers, and Admin). Users can complete payment for their preferred products through Stripe.",
+      "Sellers can add, delete, or advertise their products, and Admin can delete any buyer or seller. Can verify any seller and also delete reported items.",
+      "Users can sign up with their email, password, Google account, or GitHub account.",
+      "Users can read various types of blogs."
     ],
     "liveSite": "https://hometech-be5e9.web.app/",
     "gitHubClient": "https://github.com/mahmud035/HomeTech",
@@ -57,10 +77,23 @@
   {
     "name": "BrainStormy",
     "image": "https://i.ibb.co/N9jFcjv/brainstormy.png",
+    "images": [
+      "https://i.ibb.co/Yp7j1d1/brainstormy-1.png",
+      "https://i.ibb.co/6WLwjzY/brainstormy-2.png",
+      "https://i.ibb.co/sHwh4Gc/brainstormy-3.png",
+      "https://i.ibb.co/YBwM0pc/brainstormy-4.png"
+    ],
     "descriptions": [
       "BrainStormy is an online learning website where a student can learn about various computer science fundamentals through courses.",
       "A student can view details about each course, view courses by category, and add those to their cart if they want to purchase.",
       "Implement firebase authentication for registration and login."
+    ],
+    "fullDescriptions": [
+      "BrainStormy is an online learning website where a student can learn about various computer science fundamentals through courses.",
+      "A student can view details about each course, view courses by category, and add those to their cart if they want to purchase.",
+      "Implement firebase authentication for registration and login.",
+      "Create a PDF file for the course details.",
+      "Click on a course to see more detailed information on a separate page."
     ],
     "liveSite": "https://brain-stormy-client.web.app/",
     "gitHubClient": "https://github.com/mahmud035/BrainStormy",
@@ -80,10 +113,23 @@
   {
     "name": " WebTesty",
     "image": "https://i.ibb.co/881s29m/webtesty.png",
+    "images": [
+      "https://i.ibb.co/7NdBWrR/webtesty.png",
+      "https://i.ibb.co/c1bDcxc/webtesty-2.png",
+      "https://i.ibb.co/8sQzZBP/webtesty-3.png",
+      "https://i.ibb.co/VV4RRYD/webtesty-4.png"
+    ],
     "descriptions": [
       "WebTesty is a quiz website where users can participate in various quizzes and test their knowledge on particular topics.",
       "For each question, users can see the correct answer and know whether their answer is correct.",
       "Used ReCharts for showing total quiz data."
+    ],
+    "fullDescriptions": [
+      "WebTesty is a quiz website where users can participate in various quizzes and test their knowledge on particular topics.",
+      "For each question, users can see the correct answer and know whether their answer is correct.",
+      "Used ReCharts for showing total quiz data.",
+      "Used React, and React Router to build the project.",
+      "Create interactive UI."
     ],
     "liveSite": "https://web-testy-quiz-app.netlify.app/",
     "gitHubClient": "https://github.com/mahmud035/WebTesty",
@@ -101,7 +147,18 @@
   {
     "name": "Quran-Mazid",
     "image": "https://i.ibb.co/g9R87Qm/quran-mazid.png",
+    "images": [
+      "https://i.ibb.co/4dzQgPG/quran-1.png",
+      "https://i.ibb.co/rxDwS84/quran-2.png",
+      "https://i.ibb.co/VpQK2Fr/quran-3.png",
+      "https://i.ibb.co/fHDkmRr/quran-4.png"
+    ],
     "descriptions": [
+      "A Quran Mazid web application where users can read and listen to Quran.",
+      "Users can shorten the Surahs of the Quran by serial, by name, and by total verses.",
+      "Used RESTful Quran API to retrieve an Ayah, Surah, and the entire Holy Quran."
+    ],
+    "fullDescriptions": [
       "A Quran Mazid web application where users can read and listen to Quran.",
       "Users can shorten the Surahs of the Quran by serial, by name, and by total verses.",
       "Used RESTful Quran API to retrieve an Ayah, Surah, and the entire Holy Quran."
@@ -121,10 +178,24 @@
   {
     "name": "REST-Countries-API",
     "image": "https://i.ibb.co/nfr4j8w/rest-countries.png",
+    "images": [
+      "https://i.ibb.co/tz1X6Vf/rest-country-1.png",
+      "https://i.ibb.co/LdzGnR9/rest-country-2.png",
+      "https://i.ibb.co/qRGD0rT/rest-country-3.png",
+      "https://i.ibb.co/kx3VcqD/rest-country-4.png"
+    ],
     "descriptions": [
       "Users can see all countries from the API on the homepage and search for a country using an input field.",
       "Filter countries by region. Click on a country to see more information on a separate page.",
       "Click through to the border countries on the detail page."
+    ],
+    "fullDescriptions": [
+      "Users can see all countries from the API on the homepage.",
+      "Search for a country using an input field.",
+      "Filter countries by region.",
+      "Click on a country to see more information on a separate page.",
+      "Click through to the border countries on the detail page.",
+      "Toggle the color scheme between light and dark mode. "
     ],
     "liveSite": "https://mahmud035.github.io/REST-Countries-API-frontEndMentor/",
     "gitHubClient": "https://github.com/mahmud035/REST-Countries-API-frontEndMentor",
@@ -142,7 +213,16 @@
   {
     "name": "Simply-Natural",
     "image": "https://i.ibb.co/J7tD6j2/simply-natural.png",
+    "images": [
+      "https://i.ibb.co/xHkwYgf/simply-1.png",
+      "https://i.ibb.co/k9QsXxz/simply-2.png",
+      "https://i.ibb.co/ysHDsyZ/simply-3.png",
+      "https://i.ibb.co/LPtsrF9/simply-4.png"
+    ],
     "descriptions": [
+      "Simply Natural is a static e-commerce website built with HTML & CSS."
+    ],
+    "fullDescriptions": [
       "Simply Natural is a static e-commerce website built with HTML & CSS."
     ],
     "liveSite": "https://mahmud035.github.io/simply-natural-responsive-website/",
@@ -159,7 +239,16 @@
   {
     "name": "The BBQ Place",
     "image": "https://i.ibb.co/kGXqbyC/bbq-place.png",
+    "images": [
+      "https://i.ibb.co/fp8GjDS/bbq-1.png",
+      "https://i.ibb.co/PrvwXNQ/bbq-2.png",
+      "https://i.ibb.co/KWt3KFC/bbq-3.png",
+      "https://i.ibb.co/mbvggQY/bbq-4.png"
+    ],
     "descriptions": [
+      "The BBQ Place is a static restaurant website built with HTML & CSS."
+    ],
+    "fullDescriptions": [
       "The BBQ Place is a static restaurant website built with HTML & CSS."
     ],
     "liveSite": "https://mahmud035.github.io/the-bbq-place-restaurant/index.html",
