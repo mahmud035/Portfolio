@@ -30,7 +30,7 @@ const Projects = () => {
   }
 
   return (
-    <section id="project">
+    <section>
       <div className="container">
         <h1 className="text-center py-5">Projects</h1>
 

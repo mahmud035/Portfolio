@@ -13,7 +13,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section>
       <div className="contact-page pt-5 ">
         <div className="vh-100 container py-5">
           <div>

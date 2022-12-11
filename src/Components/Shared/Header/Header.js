@@ -60,14 +60,14 @@ const Header = () => {
                 <Nav className="mx-auto  nav-items">
                   <NavLink
                     to="/"
-                    // className={({ isActive }) =>
-                    //   isActive ? 'active' : undefined
-                    // }
+                    className={({ isActive }) =>
+                      isActive ? 'active' : undefined
+                    }
                   ></NavLink>
                   <NavLink to="/">Home</NavLink>
-                  <a href="#about">About </a>
-                  <a href="#projects">Projects</a>
-                  <a href="#contact">Contact</a>
+                  <NavLink to="/about">About</NavLink>
+                  <NavLink to="/projects">Projects</NavLink>
+                  <NavLink to="/contact">Contact</NavLink>
                 </Nav>
 
                 <Nav className="important-links mt-4 mt-xl-0">
