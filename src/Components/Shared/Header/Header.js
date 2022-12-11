@@ -5,8 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link, NavLink } from 'react-router-dom';
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import profile from '../../../assets/images/profile.png';
 
 const Header = () => {
   return (
@@ -16,13 +14,6 @@ const Header = () => {
           <Container>
             <Link to="/">
               <Navbar.Brand>
-                <img
-                  alt=""
-                  src={profile}
-                  width="40"
-                  height="40"
-                  className="d-inline-block align-center me-2 mb-1"
-                />
                 <span className="d-inline-block fw-semibold text-white fs-4">
                   Mahamudul Hasan
                 </span>
@@ -42,13 +33,6 @@ const Header = () => {
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <Link to="/">
                     <Navbar.Brand>
-                      <img
-                        alt=""
-                        src={profile}
-                        width="40"
-                        height="40"
-                        className="d-inline-block align-center me-2"
-                      />
                       <span className="d-inline-block text-white">
                         Mahamudul Hasan
                       </span>
@@ -72,20 +56,6 @@ const Header = () => {
                 </Nav>
 
                 <Nav className="important-links mt-4 mt-xl-0">
-                  <a
-                    href="https://github.com/mahmud035"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaGithubSquare size={30} />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/mahmud035/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaLinkedin size={30} />
-                  </a>
                   <a
                     className="resume-btn"
                     href="https://drive.google.com/file/d/1XUTioVsxcvO6owju9ZU1BeOAOqpSm4kj/view?usp=sharing"

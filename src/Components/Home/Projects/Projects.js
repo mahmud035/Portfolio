@@ -1,10 +1,14 @@
 import { useQuery } from '@tanstack/react-query';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Loading from '../../Shared/Loading/Loading';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css';
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const url = 'https://portfolio-server-steel.vercel.app/projects';
 
   const {

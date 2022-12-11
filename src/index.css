@@ -13,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: 'Roboto', 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 code {

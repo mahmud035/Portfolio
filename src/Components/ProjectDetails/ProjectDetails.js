@@ -5,10 +5,19 @@ import './ProjectDetails.css';
 import { FaCode } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 import { Button } from 'react-bootstrap';
+import Loading from '../Shared/Loading/Loading';
 
 const ProjectDetails = () => {
   const project = useLoaderData();
   console.log(project);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  if (project === {}) {
+    return <Loading></Loading>;
+  }
 
   const {
     name,
@@ -20,10 +29,6 @@ const ProjectDetails = () => {
     gitHubServer,
     technologyUsed,
   } = project;
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <PhotoProvider>
