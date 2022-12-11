@@ -34,7 +34,7 @@ const Projects = () => {
   }
 
   return (
-    <section>
+    <section className="projects-page">
       <div className="container">
         <h1 className="text-center py-5">Projects</h1>
 

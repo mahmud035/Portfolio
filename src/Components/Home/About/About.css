@@ -1,3 +1,9 @@
+.about-page {
+  background-color: #1a374d;
+  color: #fff;
+  height: 100vh;
+}
+
 .about-content-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));

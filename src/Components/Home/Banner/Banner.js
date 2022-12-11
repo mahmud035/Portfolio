@@ -20,21 +20,21 @@ const Banner = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithubSquare size={36} />
+            <FaGithubSquare size={36} style={{ color: '#fff' }} />
           </a>
           <a
             href="https://www.linkedin.com/in/mahmud035/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin size={36} />
+            <FaLinkedin size={36} style={{ color: '#fff' }} />
           </a>
           <a
             href="https://www.facebook.com/mh.pavel.3"
             target="_blank"
             rel="noreferrer"
           >
-            <FaFacebookSquare size={36} />
+            <FaFacebookSquare size={36} style={{ color: '#fff' }} />
           </a>
         </div>
       </div>

@@ -32,88 +32,96 @@ const ProjectDetails = () => {
 
   return (
     <PhotoProvider>
-      <div className="pb-5">
-        <div className="container pb-5">
-          <div className="photo-preview">
-            {images.map((item, index) => (
-              <PhotoView key={index} src={item}>
-                {index < 4 ? (
+      <div className="project-details-page">
+        <div className="pb-5">
+          <div className="container pb-5">
+            <div className="photo-preview">
+              {images.map((item, index) => (
+                <PhotoView key={index} src={item}>
+                  {index < 4 ? (
+                    <img
+                      src={item}
+                      key={index}
+                      alt=""
+                      className="preview-image"
+                    />
+                  ) : undefined}
+                </PhotoView>
+              ))}
+            </div>
+
+            {/* Details Info */}
+            <div className="project-card card h-100  border-0 shadow">
+              <div className="row g-2">
+                <div className="col-12 ">
                   <img
-                    src={item}
-                    key={index}
-                    alt=""
-                    className="preview-image"
+                    src={image}
+                    className="project-image rounded"
+                    alt="Project Demo"
                   />
-                ) : undefined}
-              </PhotoView>
-            ))}
-          </div>
+                </div>
+                <div className="col-12">
+                  <div className="card-body px-4">
+                    <h2 className="card-title">{name}</h2>
+                    <div>
+                      {fullDescriptions.map((bulletPoint, index) => (
+                        <div className="d-flex">
+                          <li key={index}></li>
+                          <p key={index}>{bulletPoint}</p>
+                        </div>
+                      ))}
+                    </div>
 
-          {/* Details Info */}
-          <div className="project-card card h-100  border-0 shadow">
-            <div className="row g-2">
-              <div className="col-12 ">
-                <img
-                  src={image}
-                  className="project-image rounded"
-                  alt="Project Demo"
-                />
-              </div>
-              <div className="col-12">
-                <div className="card-body px-4">
-                  <h2 className="card-title">{name}</h2>
-                  <div>
-                    {fullDescriptions.map((bulletPoint, index) => (
-                      <div className="d-flex">
-                        <li key={index}></li>
-                        <p key={index}>{bulletPoint}</p>
-                      </div>
-                    ))}
-                  </div>
+                    <div className="all-technology ">
+                      {technologyUsed.map((technology, index) => (
+                        <>
+                          <span className="fw-semibold technology" key={index}>
+                            {technology}
+                          </span>
+                        </>
+                      ))}
+                    </div>
 
-                  <div className="all-technology ">
-                    {technologyUsed.map((technology, index) => (
-                      <>
-                        <span className="fw-semibold technology" key={index}>
-                          {technology}
-                        </span>
-                      </>
-                    ))}
-                  </div>
-
-                  <div className="py-4 d-flex flex-wrap gap-2">
-                    <a href={liveSite} target="_blank" rel="noreferrer">
-                      <Button variant="outline-success" className="fw-semibold">
-                        Live Website
-                        <FiExternalLink
-                          size={22}
-                          style={{ marginBottom: '2px', marginLeft: '5px' }}
-                        />
-                      </Button>
-                    </a>
-                    <a href={gitHubClient} target="_blank" rel="noreferrer">
-                      <Button variant="outline-success" className="fw-semibold">
-                        Github Client
-                        <FaCode
-                          size={22}
-                          style={{ marginBottom: '2px', marginLeft: '5px' }}
-                        />
-                      </Button>
-                    </a>
-                    {gitHubServer && (
-                      <a href={gitHubServer} target="_blank" rel="noreferrer">
+                    <div className="py-4 d-flex flex-wrap gap-2">
+                      <a href={liveSite} target="_blank" rel="noreferrer">
                         <Button
-                          variant="outline-success"
-                          className="fw-semibold"
+                          variant="info"
+                          className="fw-semibold text-white"
                         >
-                          Github Server
+                          Live Website
+                          <FiExternalLink
+                            size={22}
+                            style={{ marginBottom: '2px', marginLeft: '5px' }}
+                          />
+                        </Button>
+                      </a>
+                      <a href={gitHubClient} target="_blank" rel="noreferrer">
+                        <Button
+                          variant="info"
+                          className="fw-semibold text-white"
+                        >
+                          Github Client
                           <FaCode
                             size={22}
                             style={{ marginBottom: '2px', marginLeft: '5px' }}
                           />
                         </Button>
                       </a>
-                    )}
+                      {gitHubServer && (
+                        <a href={gitHubServer} target="_blank" rel="noreferrer">
+                          <Button
+                            variant="info"
+                            className="fw-semibold text-white"
+                          >
+                            Github Server
+                            <FaCode
+                              size={22}
+                              style={{ marginBottom: '2px', marginLeft: '5px' }}
+                            />
+                          </Button>
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,8 @@
+.projects-page {
+  background-color: #1a374d;
+  color: #fff;
+}
+
 .projects-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));

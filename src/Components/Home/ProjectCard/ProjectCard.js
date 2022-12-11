@@ -57,7 +57,7 @@ const ProjectCard = ({ project }) => {
 
               <div className="py-4 d-flex flex-wrap gap-2">
                 <a href={liveSite} target="_blank" rel="noreferrer">
-                  <Button variant="outline-success" className="fw-semibold">
+                  <Button variant="info" className="fw-semibold text-white">
                     Live Website
                     <FiExternalLink
                       size={22}
@@ -66,7 +66,7 @@ const ProjectCard = ({ project }) => {
                   </Button>
                 </a>
                 <a href={gitHubClient} target="_blank" rel="noreferrer">
-                  <Button variant="outline-success" className="fw-semibold">
+                  <Button variant="info" className="fw-semibold text-white">
                     Github Client
                     <FaCode
                       size={22}
@@ -76,7 +76,7 @@ const ProjectCard = ({ project }) => {
                 </a>
                 {gitHubServer && (
                   <a href={gitHubServer} target="_blank" rel="noreferrer">
-                    <Button variant="outline-success" className="fw-semibold">
+                    <Button variant="info" className="fw-semibold text-white">
                       Github Server
                       <FaCode
                         size={22}
@@ -86,7 +86,7 @@ const ProjectCard = ({ project }) => {
                   </a>
                 )}
                 <Link to={`/projectdetails/${_id}`}>
-                  <Button variant="outline-success" className="fw-semibold">
+                  <Button variant="info" className="fw-semibold text-white">
                     Explore More
                     <CgInternal
                       size={22}

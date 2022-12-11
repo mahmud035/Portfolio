@@ -11,22 +11,22 @@ const About = () => {
     { type: 'Bootstrap', level: 85 },
     { type: 'Javascript', level: 80 },
     { type: 'React', level: 70 },
-    { type: 'Firebase Authentication', level: 100 },
+    { type: 'Firebase', level: 90 },
     { type: 'Node', level: 40 },
-    { type: 'Express Basic', level: 90 },
-    { type: 'MongoDB(CRUD)', level: 100 },
+    { type: 'Express ', level: 55 },
+    { type: 'MongoDB', level: 45 },
   ];
 
   const colors = {
-    bar: '#2c3e50',
+    bar: '#72e2ae',
     title: {
       text: '#fff',
-      background: '#2c3e50',
+      background: '#294149',
     },
   };
 
   return (
-    <section>
+    <section className="about-page">
       <div className="container">
         <div className="text-center py-4">
           <h1>About Me</h1>
@@ -57,14 +57,14 @@ const About = () => {
             </p>
 
             <Link to="/contact">
-              <Button variant="info" className="px-4 py-2">
+              <Button variant="info" className="px-4 py-2 text-white">
                 Contact
               </Button>
             </Link>
           </div>
           <div>
             <h2 className="fw-bold pb-4">My Skills</h2>
-            <SkillBar skills={skills} colors={colors} animationDelay={1000} />
+            <SkillBar skills={skills} colors={colors} animationDelay={700} />
           </div>
         </div>
       </div>

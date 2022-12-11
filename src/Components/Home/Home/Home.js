@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects';
 
 const Home = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#1a374d', color: '#fff' }}>
       <Banner></Banner>
       <About></About>
       <Projects></Projects>

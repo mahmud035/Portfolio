@@ -64,8 +64,8 @@ const Contact = () => {
 
                 <div className="d-flex justify-content-center  mt-3">
                   <Button
-                    className="fw-semibold px-5"
-                    variant="primary"
+                    className="fw-semibold px-5 text-white"
+                    variant="info"
                     type="submit"
                   >
                     Send Message
