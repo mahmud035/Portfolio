@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="banner-content">
         <img src={profile} alt="" />
         <h2 className="pt-3">Hi, I am Mahamudul Hasan</h2>
-        <p>
+        <p className="px-4">
           I am a frontend web developer. I can provide clean code and pixel
           perfect design. I also make website more & more interactive with web
           animations.

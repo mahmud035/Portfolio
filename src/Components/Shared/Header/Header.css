@@ -1,11 +1,16 @@
 .navbar-container {
   height: 75px;
+  z-index: 99999;
 }
 
 .navbar-container,
 .navbar-off-canvas {
   background-color: #1d3e53;
   color: #fff;
+}
+
+.navbar-off-canvas {
+  z-index: 9999999;
 }
 
 .nav-items {

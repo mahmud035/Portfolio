@@ -32,11 +32,7 @@ const Header = () => {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <Link to="/">
-                    <Navbar.Brand>
-                      <span className="d-inline-block text-white">
-                        Mahamudul Hasan
-                      </span>
-                    </Navbar.Brand>
+                    <Navbar.Brand></Navbar.Brand>
                   </Link>
                 </Offcanvas.Title>
               </Offcanvas.Header>

@@ -1,7 +1,7 @@
 .banner-content {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: calc(110vh - 75px);
   justify-content: center;
   align-items: center;
   margin-top: -5rem;

@@ -64,7 +64,7 @@ const About = () => {
           </div>
           <div>
             <h2 className="fw-bold pb-4">My Skills</h2>
-            <SkillBar skills={skills} colors={colors} animationDelay={1500} />
+            <SkillBar skills={skills} colors={colors} animationDelay={1000} />
           </div>
         </div>
       </div>

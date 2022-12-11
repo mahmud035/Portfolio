@@ -9,7 +9,7 @@ import Loading from '../Shared/Loading/Loading';
 
 const ProjectDetails = () => {
   const project = useLoaderData();
-  console.log(project);
+  // console.log(project);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -38,7 +38,12 @@ const ProjectDetails = () => {
             {images.map((item, index) => (
               <PhotoView key={index} src={item}>
                 {index < 4 ? (
-                  <img src={item} alt="" className="preview-image" />
+                  <img
+                    src={item}
+                    key={index}
+                    alt=""
+                    className="preview-image"
+                  />
                 ) : undefined}
               </PhotoView>
             ))}
@@ -60,7 +65,7 @@ const ProjectDetails = () => {
                   <div>
                     {fullDescriptions.map((bulletPoint, index) => (
                       <div className="d-flex">
-                        <li></li>
+                        <li key={index}></li>
                         <p key={index}>{bulletPoint}</p>
                       </div>
                     ))}

@@ -39,7 +39,7 @@ const ProjectCard = ({ project }) => {
               <div>
                 {descriptions.map((bulletPoint, index) => (
                   <div className="d-flex">
-                    <li></li>
+                    <li key={index + 1}></li>
                     <p key={index}>{bulletPoint}</p>
                   </div>
                 ))}
