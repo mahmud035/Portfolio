@@ -13,9 +13,12 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/projectDetails/:id',
+        path: '/projectdetails/:id',
         element: <ProjectDetails></ProjectDetails>,
-        loader: ({ params }) => fetch(``),
+        loader: ({ params }) =>
+          fetch(
+            `https://portfolio-server-steel.vercel.app/projects/${params.id}`
+          ),
       },
     ],
   },

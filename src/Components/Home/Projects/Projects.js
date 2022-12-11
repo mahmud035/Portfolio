@@ -5,7 +5,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css';
 
 const Projects = () => {
-  const url = 'http://localhost:5000/projects';
+  const url = 'https://portfolio-server-steel.vercel.app/projects';
 
   const {
     isLoading,

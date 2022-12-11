@@ -25,7 +25,7 @@ const ProjectCard = ({ project }) => {
       <div className="project-card card h-100  border-0 shadow">
         <div className="row g-2">
           <div className="col-12 ">
-            <Link to={`/projectDetails/:${_id}`}>
+            <Link to={`/projectdetails/${_id}`}>
               <img
                 src={image}
                 className="project-image rounded"
@@ -85,7 +85,7 @@ const ProjectCard = ({ project }) => {
                     </Button>
                   </a>
                 )}
-                <Link to={`/projectDetails/:${_id}`}>
+                <Link to={`/projectdetails/${_id}`}>
                   <Button variant="outline-success" className="fw-semibold">
                     Explore More
                     <CgInternal
